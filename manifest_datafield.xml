@@ -1,0 +1,15 @@
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="1">
+    <iq:application entry="RsoDataFieldApp" id="D14A2B3C4E5F60718293A4B5C6D7E8F9"
+                    type="datafield" minSdkVersion="1.0.0" name="@Strings.AppName"
+                    launcherIcon="@Drawables.LauncherIcon">
+        <iq:products>
+            <iq:product id="fenix3"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Positioning"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+    </iq:application>
+</iq:manifest>

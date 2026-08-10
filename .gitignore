@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+*.prg
+*.iq
+*.barrel
+
+# Developer key (never commit!)
+developer_key.der
+developer_key.pem
+
+# Simulator / IDE cruft
+.simulator/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,11 @@
+# MY RSO Grid -- Widget build file (jungle)
+# API floor: 1.0.0. Target: widget.
+# All paths are relative to this jungle file's directory.
+
+project.manifest = manifest_widget.xml
+
+# Shared math + logic layer (source/) plus the widget target (source_widget/).
+base.sourcePath = source;source_widget
+
+# Resources: ONLY resource files live here (manifest stays out of this tree).
+resourcePath = resources

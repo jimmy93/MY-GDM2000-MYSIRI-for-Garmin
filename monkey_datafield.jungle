@@ -1,0 +1,12 @@
+# MY RSO Grid -- Data Field build file (jungle)
+# API floor: 1.0.0. Target: datafield.
+# All paths are relative to this jungle file's directory.
+
+project.manifest = manifest_datafield.xml
+
+# Shared math + logic layer (source/) plus the data field target. The
+# widget sources in source_widget/ are NOT included for this target.
+base.sourcePath = source
+
+# Resources: ONLY resource files live here (manifest stays out of this tree).
+resourcePath = resources
